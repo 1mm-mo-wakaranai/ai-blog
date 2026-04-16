@@ -1,0 +1,653 @@
+/* ========================================
+   ググっても分からなかった初心者へ
+   やさしい色合い＋ぷくっとデザイン
+   ======================================== */
+
+/* カラーパレット（目に優しいパステル系） */
+:root {
+  --bg-main: #f5faf8;
+  --bg-card: #ffffff;
+  --accent: #2da87e;
+  --accent-light: #e6f7f0;
+  --accent-hover: #249b72;
+  --green: #2da87e;
+  --green-light: #e6f7f0;
+  --orange: #f0a868;
+  --orange-light: #fef4e8;
+  --purple: #6c8cbf;
+  --purple-light: #edf2fa;
+  --text-main: #3d3d3d;
+  --text-sub: #6b7280;
+  --border: #e0ebe6;
+}
+
+/* 全体 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Meiryo", sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-main);
+  background: var(--bg-main);
+}
+
+/* ヘッダー */
+.nav {
+  background: var(--bg-card);
+  border-bottom: 2px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.logo a {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--accent);
+}
+
+/* ナビメニュー */
+#menu a {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  transition: all 0.2s ease;
+}
+
+#menu a:hover {
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+/* トップページのキャッチコピー */
+.first-entry {
+  border: none;
+  background: linear-gradient(135deg, var(--accent-light) 0%, var(--purple-light) 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(91, 155, 213, 0.1);
+}
+
+.first-entry .entry-header h2 {
+  font-size: 1.3rem;
+}
+
+/* 記事カード */
+.post-entry {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem 1.8rem;
+  margin-bottom: 1rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.post-entry:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(91, 155, 213, 0.12);
+  border-color: var(--accent);
+}
+
+.post-entry:active {
+  transform: translateY(-1px);
+}
+
+.post-entry .entry-header h2 {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.post-entry .entry-content {
+  color: var(--text-sub);
+  font-size: 0.92rem;
+}
+
+.post-entry .post-meta {
+  color: var(--text-sub);
+  font-size: 0.82rem;
+}
+
+/* タグ */
+.post-tags a {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: 30px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.post-tags a:hover {
+  background: var(--accent);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* 記事ページ */
+.post-content {
+  font-size: 1.02rem;
+  color: var(--text-main);
+}
+
+.post-content h2 {
+  background: var(--accent-light);
+  border-left: 5px solid var(--accent);
+  border-bottom: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0 10px 10px 0;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  color: var(--text-main);
+}
+
+.post-content h3 {
+  border-left: 4px solid var(--green);
+  padding-left: 0.8rem;
+  margin-top: 2rem;
+  font-size: 1.08rem;
+}
+
+/* コードブロック */
+.post-content pre {
+  border-radius: 12px;
+  margin: 1.2rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.post-content code:not(pre code) {
+  background: var(--orange-light);
+  color: #c05621;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.88em;
+  font-weight: 500;
+}
+
+/* 目次 */
+.toc {
+  background: var(--green-light);
+  border: 2px solid #d4edda;
+  border-radius: 14px;
+  padding: 1.2rem 1.5rem;
+}
+
+.toc details summary {
+  font-weight: 700;
+  color: var(--green);
+  cursor: pointer;
+}
+
+/* テーブル */
+.post-content table {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--border);
+}
+
+.post-content table th {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-weight: 700;
+  padding: 0.7rem 1rem;
+}
+
+.post-content table td {
+  padding: 0.6rem 1rem;
+}
+
+.post-content table tr:nth-child(even) {
+  background: #fafbfc;
+}
+
+/* ぷくっとボタン（ページネーション） */
+.pagination a,
+.pagination .page-item {
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.pagination a:hover {
+  background: var(--accent);
+  color: white;
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(91, 155, 213, 0.25);
+}
+
+/* コピーボタン */
+.copy-code {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.copy-code:hover {
+  transform: scale(1.1);
+}
+
+/* 共有ボタン */
+.share-buttons a {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.share-buttons a:hover {
+  transform: scale(1.15);
+}
+
+/* パンくずリスト */
+.breadcrumbs {
+  background: var(--bg-card);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+/* フッター */
+.footer {
+  background: var(--bg-card);
+  border-top: 2px solid var(--border);
+  color: var(--text-sub);
+}
+
+/* 広告エリア */
+.footer > div[style*="text-align: center"] {
+  background: var(--bg-card);
+  border-radius: 14px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 90%;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+  .post-entry {
+    padding: 1.2rem;
+    border-radius: 14px;
+  }
+
+  .post-entry .entry-header h2 {
+    font-size: 1.02rem;
+  }
+
+  .post-content h2 {
+    font-size: 1.08rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .first-entry {
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+}
+
+/* ========================================
+   ヒーローバナー
+   ======================================== */
+.hero-banner {
+  background: linear-gradient(135deg, #e6f7f0 0%, #edf2fa 50%, #e6f7f0 100%);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 20px rgba(91, 155, 213, 0.08);
+}
+
+.hero-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.3em;
+}
+
+.hero-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--text-sub);
+  margin: 0;
+}
+
+/* ========================================
+   カテゴリナビ
+   ======================================== */
+.category-nav {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  min-width: 90px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(91, 155, 213, 0.15);
+  border-color: var(--accent);
+}
+
+.category-card:active {
+  transform: translateY(-1px);
+}
+
+.category-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.category-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* ========================================
+   セクションヘッダー
+   ======================================== */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.section-header h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.section-icon {
+  font-size: 1.3rem;
+}
+
+/* 記事カードの絵文字 */
+.post-entry .entry-header h2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+/* 記事メタ情報 */
+.entry-meta {
+  font-size: 0.82rem;
+  color: var(--text-sub);
+}
+
+/* ========================================
+   スマホ対応（追加分）
+   ======================================== */
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 1.8rem 1.2rem;
+    border-radius: 16px;
+  }
+
+  .hero-emoji {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.25rem;
+  }
+
+  .category-nav {
+    gap: 0.6rem;
+  }
+
+  .category-card {
+    min-width: 75px;
+    padding: 0.8rem 1rem;
+    border-radius: 14px;
+  }
+
+  .category-icon {
+    font-size: 1.5rem;
+  }
+
+  .category-name {
+    font-size: 0.72rem;
+  }
+}
+
+/* ========================================
+   サイドバー付きレイアウト
+   ======================================== */
+.layout-with-sidebar {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.layout-with-sidebar .post-single {
+  flex: 1;
+  min-width: 0;
+}
+
+/* サイドバー */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 5rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.sidebar-card-header {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-light);
+}
+
+/* プロフィール */
+.sidebar-profile-text {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* カテゴリタグ */
+.sidebar-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.sidebar-tag {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-radius: 20px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.sidebar-tag:hover {
+  background: var(--accent);
+  color: white;
+  transform: scale(1.05);
+}
+
+.sidebar-tag-count {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 0 0.35rem;
+  font-size: 0.7rem;
+}
+
+.sidebar-tag:hover .sidebar-tag-count {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 新着記事リスト */
+.sidebar-recent {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-recent li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-recent li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-recent li a {
+  font-size: 0.83rem;
+  color: var(--text-main);
+  text-decoration: none;
+  line-height: 1.5;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.sidebar-recent li a:hover {
+  color: var(--accent);
+}
+
+.sidebar-recent li.current a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* 関連記事 */
+.related-posts {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--border);
+}
+
+.related-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.related-header h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.related-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.related-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(91, 155, 213, 0.12);
+  border-color: var(--accent);
+}
+
+.related-emoji {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.related-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.5;
+}
+
+/* スマホではサイドバーを下に */
+@media (max-width: 900px) {
+  .layout-with-sidebar {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}

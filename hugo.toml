@@ -1,0 +1,52 @@
+baseURL = "https://ai-blog.pages.dev/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "AIつかいこなし帳"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "ChatGPTやAIツールの使い方を、初心者にも分かりやすく解説するブログ"
+  author = "AIつかいこなし帳"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  defaultTheme = "light"
+
+  [params.homeInfoParams]
+    Title = "AIつかいこなし帳"
+    Content = "ChatGPTやAIツールの「結局どう使えばいいの？」を解決します。"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = false
+    style = "monokai"
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "アーカイブ"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "検索"
+    url = "/search/"
+    weight = 30
