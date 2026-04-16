@@ -3,37 +3,45 @@
 <!-- ヒーローバナー -->
 <div class="hero-banner">
   <div class="hero-inner">
-    <div class="hero-emoji">🔍💡✨</div>
-    <h1 class="hero-title">ググっても分からなかった初心者へ</h1>
-    <p class="hero-subtitle">検索しても解決しなかったあの問題、ここで一緒に解決します。</p>
+    <div class="hero-emoji">🤖💬✨</div>
+    <h1 class="hero-title">AIつかいこなし帳</h1>
+    <p class="hero-subtitle">ChatGPTやAIツールの「結局どう使えばいいの？」を解決します。</p>
   </div>
 </div>
 
 <!-- カテゴリナビ -->
 <div class="category-nav">
-  <a href="/tags/python/" class="category-card">
-    <span class="category-icon">🐍</span>
-    <span class="category-name">Python</span>
+  <a href="/tags/chatgpt/" class="category-card">
+    <span class="category-icon">💬</span>
+    <span class="category-name">ChatGPT</span>
   </a>
-  <a href="/tags/git/" class="category-card">
-    <span class="category-icon">🌿</span>
-    <span class="category-name">Git</span>
+  <a href="/tags/gemini/" class="category-card">
+    <span class="category-icon">💎</span>
+    <span class="category-name">Gemini</span>
   </a>
-  <a href="/tags/css/" class="category-card">
+  <a href="/tags/claude/" class="category-card">
+    <span class="category-icon">🧠</span>
+    <span class="category-name">Claude</span>
+  </a>
+  <a href="/tags/画像生成/" class="category-card">
     <span class="category-icon">🎨</span>
-    <span class="category-name">CSS</span>
+    <span class="category-name">画像生成</span>
   </a>
-  <a href="/tags/vs-code/" class="category-card">
+  <a href="/tags/仕事効率化/" class="category-card">
     <span class="category-icon">⚡</span>
-    <span class="category-name">VS Code</span>
+    <span class="category-name">仕事効率化</span>
   </a>
-  <a href="/tags/初心者向け/" class="category-card">
-    <span class="category-icon">🔰</span>
-    <span class="category-name">初心者向け</span>
+  <a href="/tags/プロンプト/" class="category-card">
+    <span class="category-icon">📝</span>
+    <span class="category-name">プロンプト</span>
   </a>
-  <a href="/tags/エラー解決/" class="category-card">
-    <span class="category-icon">🛠️</span>
-    <span class="category-name">エラー解決</span>
+  <a href="/tags/無料ツール/" class="category-card">
+    <span class="category-icon">🆓</span>
+    <span class="category-name">無料ツール</span>
+  </a>
+  <a href="/tags/収益化/" class="category-card">
+    <span class="category-icon">💰</span>
+    <span class="category-name">収益化</span>
   </a>
 </div>
 
@@ -53,16 +61,18 @@
       <h2>
         {{- if eq .Params.tags nil }}📄{{ else }}
           {{- $tag := index .Params.tags 0 }}
-          {{- if eq $tag "Python" }}🐍
-          {{- else if eq $tag "Git" }}🌿
-          {{- else if eq $tag "CSS" }}🎨
-          {{- else if eq $tag "HTML" }}🎨
-          {{- else if eq $tag "VS Code" }}⚡
+          {{- if eq $tag "ChatGPT" }}💬
+          {{- else if eq $tag "Gemini" }}💎
+          {{- else if eq $tag "Claude" }}🧠
+          {{- else if eq $tag "画像生成" }}🎨
+          {{- else if eq $tag "仕事効率化" }}⚡
+          {{- else if eq $tag "プロンプト" }}📝
+          {{- else if eq $tag "無料ツール" }}🆓
+          {{- else if eq $tag "収益化" }}💰
           {{- else if eq $tag "初心者向け" }}🔰
-          {{- else if eq $tag "エラー解決" }}🛠️
-          {{- else if eq $tag "自動化" }}🤖
-          {{- else if eq $tag "開発環境" }}⚡
-          {{- else }}📄{{ end }}
+          {{- else if eq $tag "動画生成" }}🎬
+          {{- else if eq $tag "音声AI" }}🎙️
+          {{- else }}🤖{{ end }}
         {{- end }}
         {{- .Title }}
       </h2>
