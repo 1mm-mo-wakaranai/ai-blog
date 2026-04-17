@@ -30,7 +30,16 @@
     {{- end }}
 
     <div class="post-content">
-      {{ .Content }}
+      {{ $content := .Content }}
+      {{ $adCode := `<div style="text-align:center;margin:2rem 0"><div class="admax-pc"><!-- admax --><script src="https://adm.shinobi.jp/s/00ad71976e3389d374d84c8473496011"></script><!-- admax --></div><div class="admax-sp"><!-- admax --><script src="https://adm.shinobi.jp/s/2696f195997c96a044d924f68a09eff0"></script><!-- admax --></div></div>` }}
+      {{ $parts := split $content "</h2>" }}
+      {{ if gt (len $parts) 1 }}
+        {{ index $parts 0 }}</h2>
+        {{ $adCode | safeHTML }}
+        {{ range $i, $p := (after 1 $parts) }}{{ if $i }}</h2>{{ end }}{{ $p }}{{ end }}
+      {{ else }}
+        {{ $content }}
+      {{ end }}
     </div>
 
     {{- if site.Params.ShowPostNavLinks }}
