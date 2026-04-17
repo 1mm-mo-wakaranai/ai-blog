@@ -12,6 +12,9 @@ draft: false
 
 無料で使えるAI画像生成サービスを5つ、特徴と一緒に紹介します。
 
+
+{{< ad >}}
+
 ## 1. ChatGPT（DALL-E）
 
 ChatGPTの中で画像生成ができます。

@@ -12,6 +12,9 @@ draft: false
 
 Claudeの特徴と、ChatGPTとの使い分け方を解説します。
 
+
+{{< ad >}}
+
 ## Claudeとは
 
 ClaudeはAnthropic社が開発したAIアシスタントです。ChatGPTと同じように、文章で会話しながら質問や作業を依頼できます。
