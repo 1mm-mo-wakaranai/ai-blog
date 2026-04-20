@@ -91,6 +91,11 @@ AIが生成した内容は、事実関係や数字を必ず確認してくださ
 - ChatGPT + Canvaは無料で自由度が高い
 - 迷ったらまずGammaを試してみる
 
+---
+### あわせて読みたい
+- [コピペで使えるChatGPTプロンプト10選 ― 仕事がすぐ楽になる](/posts/chatgpt-prompt-template/)
+- [AIを使った副業の始め方 ― 月1万円を目指すロードマップ](/posts/ai-side-job-beginner/)
+
 <!-- affiliate -->
 ## 関連リソース
 

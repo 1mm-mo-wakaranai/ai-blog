@@ -90,3 +90,8 @@ VBAのコードと、マクロの実行方法も教えてください。
 - Excelの関数やマクロはChatGPTに聞くのが最速
 - 関数名を知らなくても、やりたいことを日本語で伝えればOK
 - 機密データは置き換えてから質問する
+
+---
+### あわせて読みたい
+- [コピペで使えるChatGPTプロンプト10選 ― 仕事がすぐ楽になる](/posts/chatgpt-prompt-template/)
+- [ChatGPTカスタム指示の設定方法 ― 毎回同じ説明をしなくて済む裏技](/posts/chatgpt-custom-instructions/)

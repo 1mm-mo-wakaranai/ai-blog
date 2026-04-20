@@ -91,6 +91,11 @@ YouTube動画のナレーションによく使われています。
 
 まずはChatGPTに音声ファイルをアップロードして文字起こしを試してみるのが、一番手軽な始め方です。
 
+---
+### あわせて読みたい
+- [ChatGPTで議事録を30秒で要約する方法](/posts/chatgpt-meeting-minutes/)
+- [無料でAI画像生成を試せるサービス5選](/posts/ai-image-generator-free/)
+
 <!-- affiliate -->
 ## 関連リソース
 

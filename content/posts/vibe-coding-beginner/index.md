@@ -122,6 +122,11 @@ TypeError: Cannot read properties of undefined (reading 'map')
 - 具体的に、段階的に指示するのがコツ
 - 小さなツールやプロトタイプ作りに最適
 
+---
+### あわせて読みたい
+- [ChatGPTの始め方 ― 登録から最初の質問まで5分で完了](/posts/chatgpt-first-step/)
+- [AIを使った副業の始め方 ― 月1万円を目指すロードマップ](/posts/ai-side-job-beginner/)
+
 <!-- affiliate -->
 ## 関連リソース
 

@@ -85,3 +85,8 @@ ChatGPTは「質問の仕方」で回答の質が大きく変わります。
 - 質問は具体的にするほど良い回答が返ってくる
 
 次は「ChatGPTに仕事を手伝ってもらう具体的な使い方」を紹介します。
+
+---
+### あわせて読みたい
+- [コピペで使えるChatGPTプロンプト10選 ― 仕事がすぐ楽になる](/posts/chatgpt-prompt-template/)
+- [Google検索とChatGPT、どっちに聞くべき？使い分けガイド](/posts/ai-vs-google-search/)

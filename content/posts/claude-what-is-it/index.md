@@ -79,6 +79,11 @@ ChatGPTとほぼ同じ操作感です。
 - ChatGPTは画像生成と汎用性が強み
 - 両方無料で使えるので、試して自分に合う方を選ぶのがベスト
 
+---
+### あわせて読みたい
+- [100ページのPDFを一瞬で要約する方法 ― Claudeの100万トークンの使い方](/posts/claude-long-document/)
+- [ChatGPTとGemini、結局どっちがいい？違いを比較](/posts/gemini-vs-chatgpt/)
+
 <!-- affiliate -->
 ## 関連リソース
 

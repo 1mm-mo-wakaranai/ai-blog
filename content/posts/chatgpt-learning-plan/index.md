@@ -163,6 +163,11 @@ IT業界未経験。文系出身。
 - 進捗報告をすれば、プランを随時調整してくれる
 - プログラミング、英語、資格試験、何でも対応
 
+---
+### あわせて読みたい
+- [ChatGPTカスタム指示の設定方法 ― 毎回同じ説明をしなくて済む裏技](/posts/chatgpt-custom-instructions/)
+- [ChatGPTの始め方 ― 登録から最初の質問まで5分で完了](/posts/chatgpt-first-step/)
+
 <!-- affiliate -->
 ## 関連リソース
 
