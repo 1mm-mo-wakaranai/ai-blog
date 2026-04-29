@@ -29,7 +29,7 @@
     </aside>
     {{- end }}
 
-    <div class="post-content">
+    <div class="post-content" id="post-content">
       {{ .Content }}
     </div>
 
@@ -85,6 +85,19 @@
         {{ end }}
       </ul>
     </div>
+
+    <!-- おすすめ記事 -->
+    <div class="sidebar-card sidebar-pickup">
+      <div class="sidebar-card-header">🔥 よく読まれている記事</div>
+      <ul class="sidebar-recent">
+        <li><a href="/posts/chatgpt-first-step/">ChatGPTの始め方 ― 登録から最初の質問まで</a></li>
+        <li><a href="/posts/chatgpt-sns-post/">SNS投稿文を一瞬で作る方法</a></li>
+        <li><a href="/posts/chatgpt-prompt-template/">コピペで使えるプロンプト10選</a></li>
+        <li><a href="/posts/gemini-google-workspace/">Gemini × Google Workspace活用術</a></li>
+        <li><a href="/posts/ai-side-job-beginner/">AIを使った副業の始め方</a></li>
+      </ul>
+    </div>
+
     <!-- サイドバー広告 -->
     <div class="sidebar-card" style="text-align: center;">
       <!-- admax --><script src="https://adm.shinobi.jp/s/25c815535dff79bca66eab37f5254988"></script><!-- admax -->
