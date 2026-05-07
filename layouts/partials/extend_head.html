@@ -21,17 +21,4 @@
 </style>
 <!-- Google AdSense 審査用コード -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2213738878575745" crossorigin="anonymous"></script>
-<!-- 記事中広告の自動挿入（3つ目のh2の前） -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var content = document.getElementById('post-content');
-  if (!content) return;
-  var h2s = content.querySelectorAll('h2');
-  if (h2s.length >= 3) {
-    var ad = document.createElement('div');
-    ad.className = 'ad-mid-article';
-    ad.innerHTML = '<div class="admax-pc"><!-- admax --><script src="https://adm.shinobi.jp/s/00ad71976e3389d374d84c8473496011"><\/script><!-- admax --></div><div class="admax-sp"><!-- admax --><script src="https://adm.shinobi.jp/s/2696f195997c96a044d924f68a09eff0"><\/script><!-- admax --></div>';
-    h2s[2].parentNode.insertBefore(ad, h2s[2]);
-  }
-});
-</script>
+<!-- 記事中広告の自動挿入: アドセンス審査中のため一時非表示 -->
