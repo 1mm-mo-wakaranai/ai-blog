@@ -1,0 +1,204 @@
+---
+title: "【2026年最新】OpenAI Codexがスマホ対応！外出先からコーディングAIを操作する方法"
+date: 2026-05-22
+tags: ["OpenAI", "Codex", "ChatGPT", "モバイル", "AIコーディング"]
+description: "OpenAI CodexがChatGPTモバイルアプリに対応。スマホからタスク監視・コマンド承認・モデル切替ができるようになりました。設定方法と活用術を解説します"
+cover:
+  image: "images/cover.png"
+  alt: "スマホからOpenAI Codexを操作するイメージ"
+  relative: true
+  hidden: false
+---
+
+## この記事で分かること
+
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
+Codexってスマホからも使えるようになったの？PCの前にいないとダメだと思ってた…
+{{< /chat >}}
+
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
+2026年5月14日からChatGPTのスマホアプリでCodexが使えるようになったよ。外出先からタスクの監視やコマンドの承認ができるんだ。
+{{< /chat >}}
+
+「Codexにタスクを任せたいけど、PCの前にずっといないといけないの？」「外出中にCodexの進捗を確認したい」——そんな悩みを解決します。この記事では、スマホからCodexを操作する方法と活用シーンを紹介します。
+
+{{< ad >}}
+
+## OpenAI Codexとは
+
+OpenAI Codexは、クラウド上で動作するAIコーディングエージェントです。プロジェクトのコードを読み、ファイルを編集し、コマンドを実行し、テスト結果を確認するところまで自動で行います。
+
+これまではPCのブラウザからしか操作できませんでした。長時間のタスクを実行中にPCから離れると、Codexが承認待ちで止まってしまうことがありました。
+
+## 何が変わったのか — モバイル対応の全容
+
+2026年5月14日のアップデートで、ChatGPTのiOS・Androidアプリ内でCodexが使えるようになりました。
+
+スマホからできることは以下の通りです。
+
+### 実行中タスクの監視
+
+Codexが作業している内容をリアルタイムで確認できます。ターミナル出力やファイル変更の差分（diff）もスマホ上で閲覧可能です。
+
+### コマンドの承認・却下
+
+Codexが「このコマンドを実行していいですか？」と聞いてきたとき、スマホからワンタップで承認できます。これまではPCに戻るまでタスクが止まっていましたが、その問題が解消されました。
+
+### モデルの切り替え
+
+タスクの途中でAIモデルを変更できます。軽いタスクには高速なモデル、複雑なタスクには高性能なモデルと使い分けが可能です。
+
+### 新しいタスクの開始
+
+スマホから新しいコーディングタスクを指示することもできます。通勤中に思いついたアイデアをすぐにCodexに投げられます。
+
+### 複数スレッドの管理
+
+複数のプロジェクトやタスクを同時に走らせている場合、すべてのスレッドをスマホから横断的に管理できます。
+
+## 対応プランと利用条件
+
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
+無料プランでも使えるの…？課金しないとダメかと思った。
+{{< /chat >}}
+
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
+嬉しいことに全プランで使えるよ。Freeプランでも大丈夫。ただしCodex自体の利用回数はプランによって違うから注意してね。
+{{< /chat >}}
+
+嬉しいことに、**全プランで利用可能**です。
+
+| プラン | 利用可否 |
+|--------|----------|
+| Free | ✅ 利用可能 |
+| Go | ✅ 利用可能 |
+| Plus | ✅ 利用可能 |
+| Pro | ✅ 利用可能 |
+| Team / Enterprise | ✅ 利用可能 |
+
+現在はプレビュー版として提供されています。今後のアップデートで機能が追加される可能性があります。
+
+## 使い方・設定方法
+
+### ステップ1: ChatGPTアプリを最新版にアップデートする
+
+App Store（iOS）またはGoogle Play（Android）でChatGPTアプリを最新版に更新します。2026年5月14日以降のバージョンが必要です。
+
+### ステップ2: Codexタブを開く
+
+アプリを開くと、下部のナビゲーションに「Codex」タブが追加されています。タップするとCodexの画面に切り替わります。
+
+### ステップ3: 既存のタスクを確認する
+
+PCで実行中のタスクがあれば、自動的にスマホにも表示されます。進捗状況、ターミナル出力、ファイル変更の差分を確認できます。
+
+### ステップ4: 新しいタスクを開始する
+
+「New task」ボタンをタップして、自然言語でやりたいことを入力します。接続済みのリポジトリに対してCodexが作業を開始します。
+
+### ステップ5: 承認リクエストに対応する
+
+Codexがコマンド実行の承認を求めてきたら、内容を確認して「Approve」をタップします。不要な場合は「Reject」で却下できます。
+
+## 実践的な活用シーン
+
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
+具体的にどういう場面で使うの？イメージがわかない…
+{{< /chat >}}
+
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
+通勤中にバグ修正を指示したり、会議中にテスト結果を確認したり。PCから離れてる隙間時間を有効活用できるんだ。
+{{< /chat >}}
+
+### 通勤中にバグ修正を指示する
+
+電車の中で「昨日のPRで報告されたバグを修正して」とCodexに指示。到着する頃にはPRが準備されています。
+
+### 会議中にテスト結果を確認する
+
+Codexにテストを走らせておいて、会議の合間にスマホで結果を確認。全部通っていればそのままマージの承認を出せます。
+
+### 寝る前にリファクタリングを開始する
+
+「この関数を分割して、テストも追加して」と指示して就寝。朝起きたらPCで結果を確認するだけです。
+
+ChatGPTの基本的な使い方については[こちらの記事](/posts/chatgpt-first-step/)で詳しく解説しています。
+
+## 注意点・制限事項
+
+- **プレビュー版**のため、動作が不安定な場合があります
+- スマホからの操作はあくまで「監視・承認・指示」です。コードの詳細なレビューはPCで行うのがおすすめです
+- モバイルデータ通信量はそこまで多くありませんが、差分表示が多いとデータを消費します
+- Codexが接続するリポジトリの設定はPC側で事前に行う必要があります
+
+AIを使ったコーディングの始め方については[AIコーディングアシスタントの記事](/posts/ai-coding-assistant/)も参考になります。
+
+## よくある質問（FAQ）
+
+### Q: 無料プランでもCodexモバイルは使えますか？
+
+A: はい、全プラン（Free含む）で利用可能です。ただしCodex自体の利用回数制限はプランによって異なります。
+
+### Q: PCを閉じていてもCodexは動き続けますか？
+
+A: はい。Codexはクラウド上で動作するため、PCがスリープ状態でもタスクは継続します。承認が必要な場面ではスマホに通知が届きます。
+
+### Q: Android版とiOS版で機能差はありますか？
+
+A: 現時点では同じ機能が提供されています。どちらのプラットフォームでも同等の操作が可能です。
+
+### Q: 複数のPCのCodex環境をスマホから管理できますか？
+
+A: はい。ラップトップ、デスクトップ、リモート開発環境など、すべてのCodex環境をスマホから横断的に管理できます。
+
+### Q: セキュリティは大丈夫ですか？
+
+A: ChatGPTアカウントの認証を通じてアクセスするため、第三者が操作することはできません。ただし、スマホ自体のロック設定は必ず有効にしておきましょう。
+
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
+スマホからコーディングの指示出せるの、未来感すごい…！
+{{< /chat >}}
+
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
+PCに張り付かなくてよくなったのは大きいよね。まずはアプリを最新版にして試してみて。
+{{< /chat >}}
+
+## まとめ
+
+- OpenAI Codexが2026年5月14日にChatGPTモバイルアプリに対応
+- スマホからタスク監視・コマンド承認・モデル切替・新規タスク開始が可能
+- 全プラン（Free含む）で利用可能（プレビュー版）
+- PCから離れてもCodexのタスクが止まらなくなった
+- 通勤中・会議中・就寝前など、隙間時間にコーディングを進められる
+
+---
+### あわせて読みたい
+- [ChatGPTの始め方ガイド](/posts/chatgpt-first-step/)
+- [AIコーディングアシスタント活用術](/posts/ai-coding-assistant/)
+
+<!-- affiliate -->
+## 関連リソース
+
+AIやプログラミングを本格的に学びたい方には、体系的に学べる書籍がおすすめです。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({
+  "n":"ChatGPT API プログラミング入門",
+  "b":"","t":"",
+  "d":"https://thumbnail.image.rakuten.co.jp",
+  "c_p":"",
+  "p":[""],
+  "u":{"u":"https://search.rakuten.co.jp/search/mall/ChatGPT+API+%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/","t":"rakuten","r_v":""},
+  "v":"2.1",
+  "b_l":[
+    {"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https://search.rakuten.co.jp/search/mall/ChatGPT+API+%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/","a_id":5490814,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}
+  ],
+  "eid":"codex-mobile-01",
+  "s":"s"
+});
+</script>
+<div id="msmaflink-codex-mobile-01">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+<!-- /affiliate -->
