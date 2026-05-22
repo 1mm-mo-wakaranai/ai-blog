@@ -215,6 +215,14 @@ Google Vidsは以下のような場面で活躍します。
 
 有料プランでは、本数制限なし・4K対応・商用利用可能となります。
 
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+なるほど…！分かりやすかった。ありがとう！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+どういたしまして。分からないことがあったらいつでも聞いてね。
+{< /chat >}
+
 ## まとめ ― Gemini 4がもたらす未来
 
 Gemini 4は、AIの活用範囲を大きく広げるモデルです。

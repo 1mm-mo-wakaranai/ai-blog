@@ -6,7 +6,16 @@ description: "ChatGPTやAIツールを使って勉強効率を上げる方法を
 draft: false
 ---
 
-## この記事で解決すること
+## この記事で分かること
+
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+AIを使った勉強法 ― 学習効率を3倍にするテクニックって何？初心者でも分かるように教えて…！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+もちろん！AIを使った勉強法 ― 学習効率を3倍にするテクニックについて、初心者でも分かるように解説するよ。一緒に見ていこう。
+{< /chat >}
+
 
 「勉強しているのに頭に入らない」「効率よく学習する方法が知りたい」
 
@@ -172,6 +181,14 @@ A: 使えます。ChatGPTは年齢制限（13歳以上、18歳未満は保護者
 
 ### Q: ChatGPT以外におすすめの学習用AIツールはありますか？
 A: 調べ学習にはPerplexity、長い文書の読解にはClaudeが向いています。目的に応じて使い分けると効率的です。それぞれの特徴は[PerplexityとChatGPTの比較](/posts/perplexity-vs-chatgpt/)で解説しています。
+
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+なるほど…！分かりやすかった。ありがとう！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+どういたしまして。分からないことがあったらいつでも聞いてね。
+{< /chat >}
 
 ## まとめ
 

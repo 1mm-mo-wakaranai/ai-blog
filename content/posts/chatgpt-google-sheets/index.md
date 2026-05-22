@@ -12,7 +12,16 @@ cover:
   hidden: false
 ---
 
-## この記事で解決すること
+## この記事で分かること
+
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+GPT for Sheetsの使い方と活用例5選って何？初心者でも分かるように教えて…！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+もちろん！GPT for Sheetsの使い方と活用例5選について、初心者でも分かるように解説するよ。一緒に見ていこう。
+{< /chat >}
+
 
 - ChatGPTをGoogleスプレッドシート上で使う方法がわかる
 - GPT for Sheetsのインストールから設定まで迷わず進められる

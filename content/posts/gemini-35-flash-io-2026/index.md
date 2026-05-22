@@ -12,7 +12,16 @@ cover:
   hidden: false
 ---
 
-## この記事で解決すること
+## この記事で分かること
+
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+Gemini 3.5 Flash発表！Google I/O 2026の目玉AIモデルを解説って何？初心者でも分かるように教えて…！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+もちろん！Gemini 3.5 Flash発表！Google I/O 2026の目玉AIモデルを解説について、初心者でも分かるように解説するよ。一緒に見ていこう。
+{< /chat >}
+
 
 「Google I/O 2026で何が発表されたの？」「Gemini 3.5 Flashって何がすごいの？」という方へ。
 
@@ -163,6 +172,14 @@ A: 速度重視ならGemini 3.5 Flash、複雑なタスクの完遂力ならGPT-
 ### Q: Gemini Sparkは日本で使えますか？
 
 A: 現時点では米国のテスター向けです。日本での提供時期は未発表ですが、Geminiアプリ自体は日本で利用可能です。
+
+{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+なるほど…！分かりやすかった。ありがとう！
+{< /chat >}
+
+{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+どういたしまして。分からないことがあったらいつでも聞いてね。
+{< /chat >}
 
 ## まとめ
 
