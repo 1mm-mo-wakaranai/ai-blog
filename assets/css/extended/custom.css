@@ -743,12 +743,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 60px;
+  min-width: 80px;
 }
 
 .chat-icon img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #e0e0e0;
@@ -807,11 +807,11 @@ body {
 
 @media (max-width: 600px) {
   .chat-icon img {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
   }
   .chat-icon {
-    min-width: 48px;
+    min-width: 60px;
   }
   .chat-text {
     max-width: 80%;
