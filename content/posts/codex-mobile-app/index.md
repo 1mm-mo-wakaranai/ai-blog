@@ -176,29 +176,4 @@ PCに張り付かなくてよくなったのは大きいよね。まずはアプ
 - [ChatGPTの始め方ガイド](/posts/chatgpt-first-step/)
 - [AIコーディングアシスタント活用術](/posts/ai-coding-assistant/)
 
-<!-- affiliate -->
-## 関連リソース
 
-AIやプログラミングを本格的に学びたい方には、体系的に学べる書籍がおすすめです。
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({
-  "n":"ChatGPT API プログラミング入門",
-  "b":"","t":"",
-  "d":"https://thumbnail.image.rakuten.co.jp",
-  "c_p":"",
-  "p":[""],
-  "u":{"u":"https://search.rakuten.co.jp/search/mall/ChatGPT+API+%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/","t":"rakuten","r_v":""},
-  "v":"2.1",
-  "b_l":[
-    {"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https://search.rakuten.co.jp/search/mall/ChatGPT+API+%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/","a_id":5490814,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}
-  ],
-  "eid":"codex-mobile-01",
-  "s":"s"
-});
-</script>
-<div id="msmaflink-codex-mobile-01">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-<!-- /affiliate -->

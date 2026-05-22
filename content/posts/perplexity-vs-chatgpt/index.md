@@ -131,10 +131,4 @@ A: ChatGPTの検索モードも出典付きで回答してくれますが、Perp
 - [Gemini vs ChatGPT ― どっちを使うべき？](/posts/gemini-vs-chatgpt/)
 - [AIで検索する時代 ― Google検索との使い分け方](/posts/ai-vs-google-search/)
 
-<!-- affiliate -->
-## 関連リソース
 
-AI活用をもっと学びたい方へ：
-
-<!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"AI時代の情報収集術 ― 検索AIを使いこなす","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":[""],"u":{"u":"https:\/\/search.rakuten.co.jp\/search\/mall\/AI+%E6%A4%9C%E7%B4%A2+%E6%B4%BB%E7%94%A8+%E5%85%A5%E9%96%80\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/AI+%E6%A4%9C%E7%B4%A2+%E6%B4%BB%E7%94%A8+%E5%85%A5%E9%96%80\/","a_id":5490814,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"pQ3xK","s":"s"});</script><div id="msmaflink-pQ3xK">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-<!-- /affiliate -->

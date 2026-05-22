@@ -191,10 +191,4 @@ A: OpenAI APIのモデル名に `gpt-5.5-instant` を指定します。料金は
 - [ChatGPTの始め方 ― 登録から最初の質問まで5分で完了](/posts/chatgpt-first-step/)
 - [GPT-5.5が登場 ― 何が変わった？初心者向けに解説](/posts/gpt55-whats-new/)
 
-<!-- affiliate -->
-## 関連リソース
 
-ChatGPTをもっと活用したい方へ：
-
-<!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"ChatGPT活用 仕事術","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":[""],"u":{"u":"https:\/\/search.rakuten.co.jp\/search\/mall\/ChatGPT%20%E6%B4%BB%E7%94%A8%20%E4%BB%95%E4%BA%8B%E8%A1%93\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/ChatGPT%20%E6%B4%BB%E7%94%A8%20%E4%BB%95%E4%BA%8B%E8%A1%93\/","a_id":5490814,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"g55iR","s":"s"});</script><div id="msmaflink-g55iR">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-<!-- /affiliate -->

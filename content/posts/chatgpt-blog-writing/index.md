@@ -206,10 +206,4 @@ A: アフィリエイトや広告収入が一般的です。AIを活用した副
 - [ChatGPTでSNS投稿を作成する方法 ― バズるコツも解説](/posts/chatgpt-sns-post/)
 - [AIが書いた文章はバレる？AI検出ツールの仕組みと対策](/posts/ai-writing-detection/)
 
-<!-- affiliate -->
-## 関連リソース
 
-ブログの文章力を高めたい方へ：
-
-<!-- START MoshimoAffiliateEasyLink --><script type="text/javascript">(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;b[a]=b[a]||function(){arguments.currentScript=c.currentScript||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};c.getElementById(a)||(d=c.createElement(f),d.src=g,d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");msmaflink({"n":"ChatGPT文章術 ― AIを使った効率的なライティング入門","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":[""],"u":{"u":"https:\/\/search.rakuten.co.jp\/search\/mall\/ChatGPT+%E6%96%87%E7%AB%A0%E8%A1%93+%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/ChatGPT+%E6%96%87%E7%AB%A0%E8%A1%93+%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\/","a_id":5490814,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"kR7mW","s":"s"});</script><div id="msmaflink-kR7mW">リンク</div><!-- MoshimoAffiliateEasyLink END -->
-<!-- /affiliate -->
