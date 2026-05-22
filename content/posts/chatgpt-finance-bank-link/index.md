@@ -14,13 +14,13 @@ cover:
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 ChatGPTが銀行口座と連携可能に！設定方法・できること・安全性を解説って何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！ChatGPTが銀行口座と連携可能に！設定方法・できること・安全性を解説について、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「ChatGPTに銀行口座を連携できるって本当？」「セキュリティは大丈夫なの？」という方へ。
@@ -162,13 +162,13 @@ A: 即座にアクセスが停止し、30日以内にすべてのデータが削
 
 A: 現時点では米国の金融機関のみ対応です。日本での展開時期は未発表です。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

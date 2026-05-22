@@ -13,13 +13,13 @@ cover:
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 ChatGPTに広告が表示される？日本でも開始予定の詳細まとめって何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！ChatGPTに広告が表示される？日本でも開始予定の詳細まとめについて、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「ChatGPTに広告が出るって本当？」「日本でもいつから？」「非表示にできるの？」という方へ。
@@ -150,13 +150,13 @@ A: Educationプランには広告は表示されません。
 ### Q: 広告を完全にブロックする拡張機能は使えますか？
 A: 現時点では公式の方法（プランアップグレードまたはオプトアウト）が推奨されます。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

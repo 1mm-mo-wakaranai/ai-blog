@@ -8,13 +8,13 @@ draft: false
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 カスタム指示の設定方法 ― 毎回同じ説明をしなくて済む裏技って何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！カスタム指示の設定方法 ― 毎回同じ説明をしなくて済む裏技について、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 ChatGPTを使うたびに「私は初心者です」「日本語で答えてください」「箇条書きで」と毎回伝えるのが面倒。
@@ -141,13 +141,13 @@ A: 各入力欄に約1,500文字まで入力できます。長すぎると効果
 ### Q: ChatGPT以外のAIツールにも同様の機能はありますか？
 A: Claudeにも「プロジェクト」機能で事前指示を設定できます。Claudeの特徴については[Claudeとは？ChatGPTとの違いを解説](/posts/claude-what-is-it/)をご覧ください。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

@@ -8,13 +8,13 @@ draft: false
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 AIコーディングアシスタント比較｜Copilot・Cursor・Kiroって何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！AIコーディングアシスタント比較｜Copilot・Cursor・Kiroについて、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「AIがコードを書いてくれるらしいけど、どれを使えばいいの？」

@@ -8,13 +8,13 @@ draft: false
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 SNS投稿文を一瞬で作る方法 ― X・Instagram・TikTok対応って何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！SNS投稿文を一瞬で作る方法 ― X・Instagram・TikTok対応について、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「SNSの投稿文を考えるのに時間がかかる」
@@ -141,13 +141,13 @@ A: 無料版でも1日に数十投稿分は作成できます。1つのプロン
 ### Q: Instagram用のハッシュタグが多すぎる気がします。減らしてもいいですか？
 A: Instagramでは10〜15個のハッシュタグが推奨されていますが、最近は5〜10個程度に絞る方がリーチが伸びるという報告もあります。ChatGPTに「ハッシュタグを5個に絞って」と追加で指示すれば調整できます。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

@@ -144,13 +144,13 @@ A: Googleは「AI生成コンテンツ自体は問題ない」としています
 ### Q: どの副業が一番稼ぎやすいですか？
 A: 短期的にはWebライティングが案件を見つけやすく、収益化が早いです。長期的にはブログ運営が安定した収入源になる可能性があります。自分の得意分野や使える時間に合わせて選んでみてください。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

@@ -8,13 +8,13 @@ draft: false
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 AIで通知・メールを自動要約する方法 ― 情報洪水から解放されるって何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！AIで通知・メールを自動要約する方法 ― 情報洪水から解放されるについて、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「未読メールが100件溜まっていて、どれから読めばいいか分からない」
@@ -177,13 +177,13 @@ A: あります。AIの要約はあくまで補助ツールです。重要な判
 ### Q: Slack以外のチャットツール（Teamsなど）でもAI要約は使えますか？
 A: Microsoft TeamsにもCopilotによる要約機能があります。それ以外のツールでも、メッセージをコピーしてChatGPTに貼り付ける方法で代用できます。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 

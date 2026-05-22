@@ -8,13 +8,13 @@ draft: false
 
 ## この記事で分かること
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 AIでプレゼン資料を自動作成する方法 ― 無料ツール3選って何？初心者でも分かるように教えて…！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 もちろん！AIでプレゼン資料を自動作成する方法 ― 無料ツール3選について、初心者でも分かるように解説するよ。一緒に見ていこう。
-{< /chat >}
+{{< /chat >}}
 
 
 「プレゼン資料を作るのに何時間もかかる」
@@ -110,13 +110,13 @@ A: 作れます。Gamma、ChatGPT、Canvaはいずれも日本語に対応して
 ### Q: 無料ツールだけで十分なクオリティのスライドが作れますか？
 A: 社内向けの資料であれば、無料ツールで十分なクオリティが出せます。クライアント向けの重要なプレゼンでは、デザインの微調整が必要になることもあります。
 
-{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}
+{{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
 なるほど…！分かりやすかった。ありがとう！
-{< /chat >}
+{{< /chat >}}
 
-{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}
+{{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
 どういたしまして。分からないことがあったらいつでも聞いてね。
-{< /chat >}
+{{< /chat >}}
 
 ## まとめ
 
