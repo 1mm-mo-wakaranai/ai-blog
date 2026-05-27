@@ -9,11 +9,11 @@ draft: false
 ## この記事で分かること
 
 {{< chat name="初心者ちゃん" icon="/images/rin-icon.png" direction="left" >}}
-AIコーディングアシスタント比較｜Copilot・Cursor・Kiroって何？初心者でも分かるように教えて…！
+AIがコード書いてくれるツールがいっぱいあるみたいなんだけど、どれを選べばいいの…？違いが分からなくて困ってる。
 {{< /chat >}}
 
 {{< chat name="全知全能くん" icon="/images/zenchi-icon.png" direction="right" >}}
-もちろん！AIコーディングアシスタント比較｜Copilot・Cursor・Kiroについて、初心者でも分かるように解説するよ。一緒に見ていこう。
+代表的なのはCopilot・Cursor・Kiroの3つだね。それぞれ得意なことが全然違うから、自分のスタイルに合ったものを選ぶのがポイントだよ。比較しながら見ていこう。
 {{< /chat >}}
 
 
