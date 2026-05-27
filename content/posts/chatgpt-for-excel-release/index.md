@@ -1,7 +1,7 @@
 ---
 title: "【速報】ChatGPT for Excelが正式リリース！Excel内でAIを使う設定方法と活用例"
 date: 2026-05-19
-draft: false
+draft: true
 tags: ["ChatGPT", "Excel", "業務効率化", "AI活用"]
 categories: ["ChatGPT活用"]
 description: "ChatGPT for Excelが全プランで正式リリース。Excel内のサイドバーからAIに指示して関数作成・データ分析・グラフ作成ができます。導入方法と活用例を解説します。"

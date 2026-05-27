@@ -1,7 +1,7 @@
 ---
 title: "【2026年版】Google Workspace × AI新機能5選 ― Sheetsで会話型データ分析が可能に"
 date: 2026-05-05
-draft: false
+draft: true
 tags: ["仕事効率化", "初心者向け", "Gemini"]
 description: "Google Cloud Next 2026で発表されたGoogle WorkspaceのAI新機能5つを初心者向けに解説。Sheetsの会話型分析、会議メモ拡張、自動化スキルなど。"
 ---

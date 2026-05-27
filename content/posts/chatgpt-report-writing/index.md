@@ -1,7 +1,7 @@
 ---
 title: "【ChatGPT】報告書・レポートを爆速で書く方法 ― コピペで使えるプロンプト付き"
 date: 2026-04-23
-draft: false
+draft: true
 tags: ["ChatGPT", "仕事効率化", "プロンプト"]
 categories: ["ChatGPT活用"]
 description: "ChatGPTで報告書やレポートを効率的に作成する方法を解説。構成案から本文まで、コピペで使えるプロンプトテンプレート付き。"

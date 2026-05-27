@@ -1,7 +1,7 @@
 ---
 title: "【2026年最新】OpenAI Codexがスマホ対応！外出先からコーディングAIを操作する方法"
 date: 2026-05-22
-tags: ["OpenAI", "Codex", "ChatGPT", "モバイル", "AIコーディング"]
+draft: true
 description: "OpenAI CodexがChatGPTモバイルアプリに対応。スマホからタスク監視・コマンド承認・モデル切替ができるようになりました。設定方法と活用術を解説します"
 cover:
   image: "images/cover.png"

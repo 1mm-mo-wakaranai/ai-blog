@@ -4,7 +4,7 @@ date: 2026-05-25
 tags: ["AI", "Google", "Gemini", "AIエージェント", "Google I/O"]
 categories: ["AIトレンド"]
 description: "Google I/O 2026で発表されたGemini Sparkは24時間稼働のパーソナルAIエージェント。スマホを閉じても動き続ける仕組み、できること、使い方を初心者向けに解説します。"
-draft: false
+draft: true
 cover:
   image: "images/cover.png"
   alt: "Gemini Spark 24時間パーソナルAIエージェント"

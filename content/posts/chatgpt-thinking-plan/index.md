@@ -1,7 +1,7 @@
 ---
 title: "【2026年最新】ChatGPTが考え中に計画を見せてくれる！GPT-5.4 Thinkingの使い方"
 date: 2026-05-11
-draft: false
+draft: true
 tags: ["ChatGPT", "AIトレンド", "初心者向け"]
 description: "GPT-5.4 Thinkingの新機能「途中で計画を表示して軌道修正できる」仕組みを解説。使い方や活用シーン、従来モデルとの違いをまとめました。"
 ---

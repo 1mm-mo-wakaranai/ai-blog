@@ -1,7 +1,7 @@
 ---
 title: "【Gemini】3.2 Flashが静かに登場 ― 高速・低価格の新モデルを速報解説"
 date: 2026-05-08
-draft: false
+draft: true
 tags: ["Gemini", "Google AI", "Gemini 3.2 Flash", "AI Studio"]
 description: "Gemini 3.2 FlashがGoogle AI Studioに登場。$0.25/百万トークンの低価格で高速処理を実現する新モデルの特徴と使い方を速報で解説します。"
 ---

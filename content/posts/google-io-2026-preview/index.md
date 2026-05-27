@@ -1,7 +1,7 @@
 ---
 title: "【2026年最新】Google I/O 2026 直前まとめ！Gemini新モデルやAI検索の注目ポイントを解説"
 date: 2026-05-18
-draft: false
+draft: true
 tags: ["AI", "Google", "Gemini", "Google I/O"]
 categories: ["AI"]
 description: "Google I/O 2026が5月19日に開催。Gemini新モデル、Android 17のAI機能、AI検索の進化など注目ポイントを直前まとめとして解説します。"

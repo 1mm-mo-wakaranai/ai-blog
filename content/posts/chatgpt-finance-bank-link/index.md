@@ -1,7 +1,7 @@
 ---
 title: "【速報】ChatGPTが銀行口座と連携可能に！設定方法・できること・安全性を解説"
 date: 2026-05-19
-draft: false
+draft: true
 tags: ["ChatGPT", "AI活用", "家計管理", "OpenAI"]
 categories: ["ChatGPT活用"]
 description: "ChatGPTに銀行口座を連携できる新機能が登場。Plaid経由で12,000以上の金融機関に対応し、支出分析や資産管理をAIに任せられます。設定手順と安全性を解説します。"

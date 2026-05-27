@@ -1,7 +1,7 @@
 ---
 title: "【ChatGPT】学習モード（Study Mode）の使い方！答えを教えずに理解を深める新機能"
 date: 2026-05-20
-draft: false
+draft: true
 tags: ["ChatGPT", "学習", "初心者向け", "Study Mode"]
 categories: ["AI"]
 description: "ChatGPTの学習モード（Study Mode）の使い方を解説。答えを直接教えず、質問やヒントで理解を深めてくれる新機能。設定方法から活用例まで紹介します。"

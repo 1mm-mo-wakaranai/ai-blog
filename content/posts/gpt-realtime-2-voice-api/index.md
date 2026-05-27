@@ -4,7 +4,7 @@ date: 2026-05-13
 tags: ["OpenAI", "GPT-Realtime-2", "音声AI", "リアルタイム翻訳", "API"]
 categories: ["AIトレンド"]
 description: "OpenAIが発表したGPT-Realtime-2はGPT-5クラスの推論を持つリアルタイム音声モデル。70言語翻訳やストリーミング音声認識も同時リリース。機能・使い方・活用例を解説します。"
-draft: false
+draft: true
 cover:
   image: "images/cover.png"
   alt: "OpenAI GPT-Realtime-2 リアルタイム音声AIモデル"

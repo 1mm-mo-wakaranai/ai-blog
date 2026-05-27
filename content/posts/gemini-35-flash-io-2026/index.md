@@ -1,7 +1,7 @@
 ---
 title: "【速報】Gemini 3.5 Flash発表！Google I/O 2026の目玉AIモデルを解説"
 date: 2026-05-20
-draft: false
+draft: true
 tags: ["AI", "Google", "Gemini", "Google I/O"]
 categories: ["AI"]
 description: "Google I/O 2026で発表されたGemini 3.5 Flashを解説。前世代Proを超える性能、4倍の速度、40%安い料金。無料で使える方法やGemini Sparkについてもまとめます。"

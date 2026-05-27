@@ -4,7 +4,7 @@ date: 2026-05-13
 tags: ["ChatGPT", "Googleスプレッドシート", "GPT for Sheets", "業務効率化", "API"]
 categories: ["ChatGPT活用"]
 description: "ChatGPTとGoogleスプレッドシートを連携するGPT for Sheetsの導入方法と活用例を解説。商品説明の一括生成、翻訳、データ分類など実践的な使い方を紹介します。"
-draft: false
+draft: true
 cover:
   image: "images/cover.png"
   alt: "ChatGPT Googleスプレッドシート連携 GPT for Sheets"

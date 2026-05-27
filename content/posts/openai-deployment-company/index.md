@@ -1,7 +1,7 @@
 ---
 title: "【速報】OpenAI Deployment Companyとは？企業向けAI導入支援の新会社を解説"
 date: 2026-05-18
-draft: false
+draft: true
 tags: ["AI", "OpenAI", "ChatGPT", "企業向けAI"]
 categories: ["AI"]
 description: "OpenAIが2026年5月に設立したOpenAI Deployment Companyについて解説。40億ドルの投資を受けた企業向けAI導入支援の新会社の概要、サービス内容、個人ユーザーへの影響をまとめます。"

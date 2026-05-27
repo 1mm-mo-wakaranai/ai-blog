@@ -3,7 +3,7 @@ title: "【ChatGPT】自分だけの学習プランをAIに作ってもらう方
 date: 2026-04-18
 tags: ["ChatGPT", "初心者向け", "プロンプト"]
 description: "ChatGPTに自分の状況を伝えるだけで、オーダーメイドの学習プランを作ってもらえます。コピペで使えるプロンプト付き。"
-draft: false
+draft: true
 ---
 
 ## この記事で分かること

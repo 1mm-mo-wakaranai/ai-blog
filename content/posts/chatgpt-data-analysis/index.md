@@ -101,7 +101,7 @@ ChatGPTのCode Interpreter機能を使えば、実際にグラフを生成して
 - 個人名や具体的な金額は仮のデータに置き換えてから入力しましょう
 - ChatGPTの分析結果は参考値です。重要な意思決定には必ず自分で検証してください
 
-分析結果をレポートにまとめたい場合は、[ChatGPTで報告書・レポートを爆速で書く方法](/posts/chatgpt-report-writing/)が役立ちます。また、PDFの資料を分析したいときは[ChatGPTでPDFを要約する方法](/posts/chatgpt-pdf-summary/)もチェックしてみてください。
+PDFの資料を分析したいときは[ChatGPTでPDFを要約する方法](/posts/chatgpt-pdf-summary/)もチェックしてみてください。
 
 ## よくある質問（FAQ）
 

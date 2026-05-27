@@ -1,7 +1,7 @@
 ---
 title: "【速報】Gemini 4が登場 ― Googleの最新AIモデルで何ができるようになるのか"
 date: 2026-05-05
-draft: false
+draft: true
 tags: ["AIトレンド", "初心者向け", "Gemini"]
 description: "Google Cloud Next 2026で発表されたGemini 4の全貌を解説。高度な推論、エージェント構築、動画生成など新機能を初心者向けにわかりやすくまとめました。"
 ---
