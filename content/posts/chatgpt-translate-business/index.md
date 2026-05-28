@@ -16,6 +16,8 @@ draft: false
 あるよ！ChatGPTはビジネスの文脈を理解して翻訳してくれるから、Google翻訳より自然な仕上がりになるんだ。しかも翻訳と返信を同時に作れるのがポイントだよ。
 {{< /chat >}}
 
+![ChatGPTビジネス翻訳 理解度の変化](images/comparison-before-after.png)
+
 「英語のメールが来たけど、Google翻訳だと不自然な日本語になる」
 
 ビジネス英語の翻訳は、ChatGPTの方がGoogle翻訳より自然で正確です。その理由と使い方を解説します。ChatGPTの基本的な使い方については、[ChatGPTの始め方](/posts/chatgpt-first-step/)をご覧ください。

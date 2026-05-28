@@ -16,6 +16,8 @@ draft: false
 いい質問だね！Claudeは長い文章を読むのがめちゃくちゃ得意で、慎重に答えてくれるタイプのAIなんだ。ChatGPTとは得意分野が違うから、使い分けると便利だよ。
 {{< /chat >}}
 
+![Claude特徴 理解度の変化](images/comparison-before-after.png)
+
 「ClaudeっていうAIを聞いたけど、ChatGPTと何が違うの？」
 
 Claudeの特徴と、ChatGPTとの使い分け方を解説します。

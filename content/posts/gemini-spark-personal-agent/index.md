@@ -22,6 +22,8 @@ Gemini Sparkって何？普通のGeminiと何が違うの…？
 Gemini Sparkは「24時間あなたの代わりに動いてくれるAIエージェント」だよ。スマホを閉じても、PCの電源を切っても、クラウド上で勝手に仕事を進めてくれるんだ。
 {{< /chat >}}
 
+![Gemini Spark 理解度の変化](images/comparison-before-after.png)
+
 「AIに頼んだタスクを、自分が寝ている間にも進めてほしい」「毎日の繰り返し作業を自動化したい」——そんな願いを叶えるのがGemini Sparkです。
 
 この記事では、Google I/O 2026で発表されたGemini Sparkの仕組み、できること、従来のAIアシスタントとの違いを解説します。

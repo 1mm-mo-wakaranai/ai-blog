@@ -16,6 +16,8 @@ draft: false
 Perplexityは「出典付きで答えてくれる検索AI」なんだ。ChatGPTは文章作成が得意、Perplexityは調べものが得意。用途で使い分けるのがポイントだよ。
 {{< /chat >}}
 
+![Perplexity vs ChatGPT 理解度の変化](images/comparison-before-after.png)
+
 「PerplexityってChatGPTと何が違うの？」「調べものにはどっちが向いてる？」
 
 2026年、AIで検索する人が増えています。この記事では、Perplexity AIとChatGPTの違いを用途別に比較します。
