@@ -162,6 +162,8 @@ PDFの資料を分析したいときは[ChatGPTでPDFを要約する方法](/pos
 
 ## よくある質問（FAQ）
 
+![この記事のポイント](images/point-takeaway.png)
+
 ### Q: 無料版のChatGPTでもデータ分析はできますか？
 A: はい、テキストベースの集計や分析は無料版でも可能です。ただし、グラフの生成（Code Interpreter機能）は有料プラン（ChatGPT Plus）が必要です。
 

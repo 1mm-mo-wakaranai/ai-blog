@@ -36,6 +36,8 @@ ChatGPTと比べると約**8倍**の情報を一度に処理できます。Gemin
 
 ## 使い方：3ステップで完了
 
+![使い方：3ステップで完了](images/step-guide.png)
+
 ### ステップ1：PDFをアップロードする
 
 1. [claude.ai](https://claude.ai) にアクセス

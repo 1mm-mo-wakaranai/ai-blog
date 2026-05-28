@@ -96,6 +96,8 @@ ChatGPTを使ったブレインストーミングの具体的なやり方は、[
 
 ## 始め方
 
+![始め方](images/step-guide.png)
+
 ### Perplexity
 
 1. https://www.perplexity.ai にアクセス
