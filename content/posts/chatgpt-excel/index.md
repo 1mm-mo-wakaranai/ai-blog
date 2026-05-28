@@ -16,11 +16,9 @@ Excelの関数が分からなくて毎回ググってるんだけど…。ChatGP
 圧倒的に早いよ。関数名を知らなくても「やりたいこと」を日本語で伝えるだけで数式を教えてくれるんだ。マクロまで書いてもらえるから、具体的な聞き方を紹介するね。
 {{< /chat >}}
 
-
 「Excelの関数が分からない」「マクロって何？」
 
 そんなとき、ChatGPTに聞けば数秒で答えが返ってきます。ググるより速いです。ChatGPTをまだ使ったことがない方は、[ChatGPTの始め方](/posts/chatgpt-first-step/)から始めてみてください。
-
 
 {{< ad >}}
 
@@ -156,5 +154,4 @@ A: はい、ChatGPTはGoogle スプレッドシートの関数やGoogle Apps Scr
 ### あわせて読みたい
 - [コピペで使えるChatGPTプロンプト10選 ― 仕事がすぐ楽になる](/posts/chatgpt-prompt-template/)
 - [ChatGPTカスタム指示の設定方法 ― 毎回同じ説明をしなくて済む裏技](/posts/chatgpt-custom-instructions/)
-
 

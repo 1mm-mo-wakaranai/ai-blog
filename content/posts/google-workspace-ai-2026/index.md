@@ -270,4 +270,3 @@ SOC 2、ISO 27001などの国際セキュリティ認証も取得済みです。
 - [Google WorkspaceでGeminiを活用する方法](/posts/gemini-google-workspace/)
 - [ChatGPTでデータ分析を始める方法](/posts/chatgpt-data-analysis/)
 
-
