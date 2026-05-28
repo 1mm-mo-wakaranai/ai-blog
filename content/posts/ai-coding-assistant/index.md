@@ -16,6 +16,8 @@ AIがコード書いてくれるツールがいっぱいあるみたいなんだ
 代表的なのはCopilot・Cursor・Kiroの3つだね。それぞれ得意なことが全然違うから、自分のスタイルに合ったものを選ぶのがポイントだよ。比較しながら見ていこう。
 {{< /chat >}}
 
+![AIコーディングアシスタント 理解度の変化](images/comparison-before-after.png)
+
 「AIがコードを書いてくれるらしいけど、どれを使えばいいの？」
 
 GitHub Copilot、Cursor、Kiroの3つを比較して、それぞれどんな人に向いているかを整理します。AIツール全般の選び方については[Google検索とChatGPTの使い分けガイド](/posts/ai-vs-google-search/)も参考になります。

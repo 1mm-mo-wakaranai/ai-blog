@@ -16,6 +16,8 @@ draft: false
 できるよ！ChatGPTにデータを貼り付けて「分析して」って言うだけだから。Excelの知識ゼロでも集計やグラフまで作れるんだ。やり方を見ていこう。
 {{< /chat >}}
 
+![ChatGPTデータ分析 理解度の変化](images/comparison-before-after.png)
+
 「データ分析したいけど、Excelのピボットテーブルとか分からない」
 
 ChatGPTにCSVデータを貼り付けるだけで、集計・分析・グラフまで作ってくれます。
