@@ -195,6 +195,8 @@ A: OpenAI APIのモデル名に `gpt-5.5-instant` を指定します。料金は
 どういたしまして。分からないことがあったらいつでも聞いてね。
 {{< /chat >}}
 
+![GPT-5.5 Instant 注目ポイント](images/point-features.png)
+
 ## まとめ
 
 - GPT-5.5 Instantが2026年5月5日にChatGPTのデフォルトモデルになった

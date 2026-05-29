@@ -225,6 +225,8 @@ Google Vidsは以下のような場面で活躍します。
 
 ![Gemini 4 理解度の変化](images/comparison-before-after.png)
 
+![Gemini 4 注目ポイント](images/point-features.png)
+
 ## まとめ ― Gemini 4がもたらす未来
 
 Gemini 4は、AIの活用範囲を大きく広げるモデルです。
