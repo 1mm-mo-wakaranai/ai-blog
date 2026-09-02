@@ -1,52 +1,61 @@
-{{- define "main" }}
+﻿{{- define "main" }}
+
+{{/* 技術ロゴのSVG定義（1回だけ出力） */}}
+{{ partial "tech-logos.html" . }}
 
 <!-- ヒーローバナー -->
-<div class="hero-banner">
+<div class="hero-banner reveal">
+  <span class="hero-motif" aria-hidden="true">✳</span>
+  <div class="hero-logos" aria-hidden="true">
+    <span class="flogo hl1 brand-openai"><svg viewBox="0 0 160 160"><use href="#lg-openai"/></svg></span>
+    <span class="flogo hl2"><svg viewBox="0 0 160 160"><use href="#lg-gemini"/></svg></span>
+    <span class="flogo hl3"><svg viewBox="0 0 160 160"><use href="#lg-tool"/></svg></span>
+  </div>
   <div class="hero-inner">
-    <div class="hero-emoji">🤖💬✨</div>
-    <h1 class="hero-title">AIつかいこなし帳</h1>
-    <p class="hero-subtitle">ChatGPTやAIツールの「結局どう使えばいいの？」を解決します。</p>
+    <span class="hero-eyebrow"><span class="dot"></span> AIの「結局どう使うの？」を解決する</span>
+    <h1 class="hero-title">ChatGPTやAIツールを<span class="hl">使いこなす</span>コツを、初心者にもやさしく。</h1>
+    <p class="hero-subtitle">プロンプトのコツから作業の時短術まで、実際に試して分かったことを共有します。</p>
+    <form class="hero-search" action="/search/" method="get" role="search">
+      <span class="hero-search-icon" aria-hidden="true">🔍</span>
+      <input type="text" name="q" placeholder="キーワードで探す（例: プロンプト / 要約）" aria-label="サイト内検索">
+      <button type="submit">探す</button>
+    </form>
   </div>
 </div>
 
-<!-- カテゴリナビ -->
-<div class="category-nav">
-  <a href="/tags/chatgpt/" class="category-card">
-    <span class="category-icon">💬</span>
-    <span class="category-name">ChatGPT</span>
-  </a>
-  <a href="/tags/gemini/" class="category-card">
-    <span class="category-icon">💎</span>
-    <span class="category-name">Gemini</span>
-  </a>
-  <a href="/tags/claude/" class="category-card">
-    <span class="category-icon">🧠</span>
-    <span class="category-name">Claude</span>
-  </a>
-  <a href="/tags/画像生成/" class="category-card">
-    <span class="category-icon">🎨</span>
-    <span class="category-name">画像生成</span>
-  </a>
-  <a href="/tags/仕事効率化/" class="category-card">
-    <span class="category-icon">⚡</span>
-    <span class="category-name">仕事効率化</span>
-  </a>
-  <a href="/tags/プロンプト/" class="category-card">
-    <span class="category-icon">📝</span>
-    <span class="category-name">プロンプト</span>
-  </a>
-  <a href="/tags/無料ツール/" class="category-card">
-    <span class="category-icon">🆓</span>
-    <span class="category-name">無料ツール</span>
-  </a>
-  <a href="/tags/収益化/" class="category-card">
-    <span class="category-icon">💰</span>
-    <span class="category-name">収益化</span>
-  </a>
+<!-- カテゴリ（トピック）ナビ -->
+<div class="category-nav reveal">
+  <a href="/tags/chatgpt/" class="category-card"><span class="category-icon brand-openai"><svg viewBox="0 0 160 160"><use href="#lg-openai"/></svg></span><span class="category-name">ChatGPT</span></a>
+  <a href="/tags/gemini/" class="category-card"><span class="category-icon"><svg viewBox="0 0 160 160"><use href="#lg-gemini"/></svg></span><span class="category-name">Gemini</span></a>
+  <a href="/tags/claude/" class="category-card"><span class="category-icon emoji">🧠</span><span class="category-name">Claude</span></a>
+  <a href="/tags/画像生成/" class="category-card"><span class="category-icon emoji">🎨</span><span class="category-name">画像生成</span></a>
+  <a href="/tags/仕事効率化/" class="category-card"><span class="category-icon emoji">⚡</span><span class="category-name">仕事効率化</span></a>
+  <a href="/tags/プロンプト/" class="category-card"><span class="category-icon"><svg viewBox="0 0 160 160"><use href="#lg-prompt"/></svg></span><span class="category-name">プロンプト</span></a>
+  <a href="/tags/無料ツール/" class="category-card"><span class="category-icon"><svg viewBox="0 0 160 160"><use href="#lg-tool"/></svg></span><span class="category-name">無料ツール</span></a>
+  <a href="/tags/収益化/" class="category-card"><span class="category-icon emoji">💰</span><span class="category-name">収益化</span></a>
 </div>
 
+<!-- よく読まれている記事（人気記事：data/popular.yaml を参照） -->
+{{- with hugo.Data.popular }}
+{{- if .posts }}
+<div class="section-header reveal">
+  <span class="section-icon">🔥</span>
+  <h2>よく読まれている記事</h2>
+</div>
+<div class="popular-grid reveal">
+  {{- range $i, $p := first 6 .posts }}
+  <a href="{{ $p.url }}" class="popular-card">
+    <span class="popular-rank">{{ add $i 1 }}</span>
+    <span class="popular-emoji">{{ with $p.icon }}{{ . }}{{ else }}🤖{{ end }}</span>
+    <span class="popular-title">{{ $p.title }}</span>
+  </a>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
+
 <!-- 新着記事 -->
-<div class="section-header">
+<div class="section-header reveal">
   <span class="section-icon">📝</span>
   <h2>新着記事</h2>
 </div>
@@ -55,7 +64,7 @@
 {{- $paginator := .Paginate $pages }}
 
 {{- range $index, $page := $paginator.Pages }}
-<article class="post-entry">
+<article class="post-entry reveal">
   <a href="{{ .Permalink }}">
     <header class="entry-header">
       <h2>

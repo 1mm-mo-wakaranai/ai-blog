@@ -1,0 +1,19 @@
+# 人気記事（よく読まれている記事）
+# アクセス数(Google Analytics)を見て、ここを手動で並べ替え・差し替えするだけで
+# トップページとサイドバーの「よく読まれている記事」が更新されます。
+posts:
+  - title: "ChatGPTの始め方 ― 登録から最初の質問まで"
+    url: "/posts/chatgpt-first-step/"
+    icon: "💬"
+  - title: "SNS投稿文を一瞬で作る方法"
+    url: "/posts/chatgpt-sns-post/"
+    icon: "💬"
+  - title: "コピペで使えるプロンプト10選"
+    url: "/posts/chatgpt-prompt-template/"
+    icon: "📝"
+  - title: "Gemini × Google Workspace活用術"
+    url: "/posts/gemini-google-workspace/"
+    icon: "💎"
+  - title: "AIを使った副業の始め方"
+    url: "/posts/ai-side-job-beginner/"
+    icon: "💰"
