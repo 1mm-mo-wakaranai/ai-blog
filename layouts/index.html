@@ -18,15 +18,15 @@
     <span class="flogo hl3"><svg viewBox="0 0 160 160"><use href="#lg-tool"/></svg></span>
   </div>
   <div class="hero-inner">
-    <span class="hero-eyebrow"><span class="dot"></span> AIの「結局どう使うの？」を解決する</span>
-    <h1 class="hero-title">ChatGPTやAIツールを<span class="hl">使いこなす</span>コツを、初心者にもやさしく。</h1>
+    <span class="hero-eyebrow"><span class="dot"></span> AIの「結局どう使うの？」を<wbr>解決する</span>
+    <h1 class="hero-title">ChatGPTやAIツールを<wbr><span class="hl">使いこなす</span>コツを、<wbr>初心者にも<wbr>やさしく。</h1>
     <p class="hero-subtitle">新機能や仕様変更は公式発表を確認して、すぐ記事にしています。プロンプトのコツから時短術まで。</p>
     <form class="hero-search" action="/search/" method="get" role="search">
       <span class="hero-search-icon" aria-hidden="true">🔍</span>
       <input type="text" name="q" placeholder="キーワードで探す（例: プロンプト / 要約）" aria-label="サイト内検索">
       <button type="submit">探す</button>
     </form>
-    <p class="hero-fresh"><span class="hero-fresh-badge">更新</span> 最終更新 <time datetime="{{ $latest.Date.Format "2006-01-02" }}">{{ $latest.Date.Format "2006.01.02" }}</time><span class="nowrap">・ 全{{ len $pages }}記事</span></p>
+    <p class="hero-fresh"><span class="hero-fresh-badge">最終更新</span><time datetime="{{ $latest.Date.Format "2006-01-02" }}">{{ $latest.Date.Format "2006.01.02" }}</time><span class="hero-fresh-sep" aria-hidden="true">/</span><span class="nowrap">全{{ len $pages }}記事</span></p>
   </div>
 </div>
 
@@ -41,7 +41,7 @@
   (dict "key" "無料ツール" "name" "無料ツール" "svg" "lg-tool")
   (dict "key" "収益化" "name" "収益化" "emoji" "💰")
 }}
-<nav class="category-nav" aria-label="カテゴリ">
+<nav class="category-nav cats-{{ len $cats }}" aria-label="カテゴリ">
   {{- range $cats }}
   {{- $n := 0 }}{{ with site.GetPage (printf "/tags/%s" .key) }}{{ $n = len .Pages }}{{ end }}
   <a href="{{ printf "/tags/%s/" .key }}" class="category-card">
@@ -111,7 +111,7 @@
       </span>
       <span class="home-card-title">{{ .Title }}</span>
       <span class="home-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 80 }}{{ end }}</span>
-      <span class="home-meta">📅 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time> · ☕ {{ .ReadingTime }}分</span>
+      <span class="home-meta">📅 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span class="home-rt"> · ☕ {{ .ReadingTime }}分</span></span>
     </span>
   </a>
   {{- end }}
