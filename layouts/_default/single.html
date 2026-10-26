@@ -31,7 +31,7 @@
     {{- end }}
 
     <div class="post-content" id="post-content">
-      {{ .Content }}
+      {{ partial "mid-ad.html" (dict "html" .Content "pc" "00ad71976e3389d374d84c8473496011" "sp" "2696f195997c96a044d924f68a09eff0") }}
     </div>
 
     {{- if site.Params.ShowPostNavLinks }}
@@ -101,9 +101,7 @@
 
     <!-- サイドバー広告（忍者アドマックス PC縦長） -->
     <div class="sidebar-card admax-pc" style="text-align: center;">
-      <!-- admax -->
-      <script src="https://adm.shinobi.jp/s/25c815535dff79bca66eab37f5254988"></script>
-      <!-- admax -->
+      {{ partial "admax.html" (dict "pc" "25c815535dff79bca66eab37f5254988") }}
     </div>
   </aside>
 

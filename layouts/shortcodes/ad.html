@@ -1,15 +1,4 @@
 <!-- 記事中広告（忍者アドマックス） -->
 <div class="ad-mid-article">
-  <!-- PC: 正方形（レクタングル） -->
-  <div class="admax-pc">
-    <!-- admax -->
-    <script src="https://adm.shinobi.jp/s/00ad71976e3389d374d84c8473496011"></script>
-    <!-- admax -->
-  </div>
-  <!-- スマホ: 大き目 -->
-  <div class="admax-sp">
-    <!-- admax -->
-    <script src="https://adm.shinobi.jp/s/2696f195997c96a044d924f68a09eff0"></script>
-    <!-- admax -->
-  </div>
+  {{ partial "admax.html" (dict "pc" "00ad71976e3389d374d84c8473496011" "sp" "2696f195997c96a044d924f68a09eff0") }}
 </div>
