@@ -39,6 +39,8 @@ cover:
 
 この記事は、Googleのスンダー・ピチャイCEOの発表と、OfficeChai・Fello AIなどの報道をもとにまとめています（2026年10月29日に確認）。
 
+> **2026年11月12日追記**：11月10日にGemini 4 Carbonが一般公開され、Google AI UltraならGeminiアプリで使えるようになりました。くわしくは[Gemini 4 Carbon一般公開の記事](/posts/gemini-4-carbon-ultra-available/)をご覧ください。
+
 ## Gemini 4 Carbonとは？
 Gemini 4 Carbonは、Googleが2026年10月28日に発表した、**Gemini 4シリーズの2つ目のモデル**です。1つ目のGemini 4 Argonから、わずか2週間ほどで出てきました。
 
